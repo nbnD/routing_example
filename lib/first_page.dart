@@ -26,17 +26,3 @@ class FirstPage extends StatelessWidget {
     );
   }
 }
-
-                // Pushing a route directly, WITHOUT using a named route
-                // With MaterialPageRoute, you can pass data between pages,
-                // but if you have a more complex app, you will quickly get lost.
-
-                //As the app gets bigger and using MaterialPageRoute, we need to call
-                //this whenever we need to go to next screen which create redundant
-                //repeatation
-                // Navigator.of(context).push(
-                //   MaterialPageRoute(
-                //     builder: (context) => const SecondPage(
-                //         data: 'Hello there from the first page!'),
-                //   ),
-                // );
